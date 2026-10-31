@@ -393,8 +393,8 @@ footer{margin-top:72px;padding-top:20px;border-top:1px solid var(--line);font-si
   <section id="teach" class="wrap">
     <div class="sec-head"><div><div class="eyebrow">Обучение</div><h2 class="sec">Уроки и разборы</h2></div></div>
     <div class="teach">
-      <article class="tcard"><div class="tp"><img src="img/brand-2.webp" alt="" loading="lazy"></div><div class="tb"><h3>Уроки по работе с нижним бельём</h3><p>Обучаю создавать для брендов съёмки нижнего белья в нейросетях. Пример урока открывается по ссылке, а идеи и сеты из практики собраны в постах.</p><div class="acts"><a class="btn primary sm" href="https://disk.yandex.ru/i/KW2oX9boj-5MTw" target="_blank" rel="noopener">Пример урока ↗</a><button class="btn ghost sm" type="button" data-open="lingerie5">Пост с идеями</button></div></div></article>
-      <article class="tcard"><div class="tp"><img src="img/raz-1.webp" alt="" loading="lazy"></div><div class="tb"><h3>Разборы видеороликов</h3><p>Пошагово показываю, как сделан ролик: персонажи, сцены, промпты. Пример разбора открывается по ссылке, а пост к нему — здесь.</p><div class="acts"><a class="btn primary sm" href="https://disk.yandex.ru/d/2PxcldsHXMVTxQ" target="_blank" rel="noopener">Пример разбора ↗</a><button class="btn ghost sm" type="button" data-open="breakdown">Пост о разборе</button></div></div></article>
+      <article class="tcard"><div class="tp"><img src="img1/brand-2.webp" alt="" loading="lazy"></div><div class="tb"><h3>Уроки по работе с нижним бельём</h3><p>Обучаю создавать для брендов съёмки нижнего белья в нейросетях. Пример урока открывается по ссылке, а идеи и сеты из практики собраны в постах.</p><div class="acts"><a class="btn primary sm" href="https://disk.yandex.ru/i/KW2oX9boj-5MTw" target="_blank" rel="noopener">Пример урока ↗</a><button class="btn ghost sm" type="button" data-open="lingerie5">Пост с идеями</button></div></div></article>
+      <article class="tcard"><div class="tp"><img src="img3/raz-1.webp" alt="" loading="lazy"></div><div class="tb"><h3>Разборы видеороликов</h3><p>Пошагово показываю, как сделан ролик: персонажи, сцены, промпты. Пример разбора открывается по ссылке, а пост к нему — здесь.</p><div class="acts"><a class="btn primary sm" href="https://disk.yandex.ru/d/2PxcldsHXMVTxQ" target="_blank" rel="noopener">Пример разбора ↗</a><button class="btn ghost sm" type="button" data-open="breakdown">Пост о разборе</button></div></div></article>
     </div>
   </section>
 
@@ -407,7 +407,7 @@ footer{margin-top:72px;padding-top:20px;border-top:1px solid var(--line);font-si
     <div class="about">
       <div class="portrait" id="portrait">
         <div class="arch back" aria-hidden="true"></div><div class="arch ring" aria-hidden="true"></div>
-        <div class="arch photo"><img src="img/me-ai.webp" alt="Портрет автора" loading="lazy"></div>
+        <div class="arch photo"><img src="img3/me-ai.webp" alt="Портрет автора" loading="lazy"></div>
         <div class="badge" aria-hidden="true"><svg viewBox="0 0 120 120"><defs><path id="circ" d="M60,60 m-47,0 a47,47 0 1,1 94,0 a47,47 0 1,1 -94,0"/></defs><text><textPath href="#circ" textLength="290">ИИ-креатор · бренды · обучение · видео ·</textPath></text></svg><span class="core">AI</span></div>
         <span class="sticker s1" aria-hidden="true">бренды</span><span class="sticker s2" aria-hidden="true">видео</span>
       </div>
@@ -438,7 +438,7 @@ footer{margin-top:72px;padding-top:20px;border-top:1px solid var(--line);font-si
         <div class="cta"><a class="btn primary" href="https://dariatatrinceva.github.io/delu-vremya" target="_blank" rel="noopener">Открыть приложение ↗</a></div>
         <p class="cap">Справа скриншот приложения: нажмите, чтобы увеличить. Само приложение откроется по ссылке.</p>
       </div>
-      <div class="demo"><div class="phone" data-zoomimg="img/app.webp" role="img" aria-label="Скриншот приложения «Время игры»"><img src="img/app.webp" alt="Скриншот приложения «Время игры»" loading="lazy" width="588" height="1192"></div></div>
+      <div class="demo"><div class="phone" data-zoomimg="img1/app.webp" role="img" aria-label="Скриншот приложения «Время игры»"><img src="img1/app.webp" alt="Скриншот приложения «Время игры»" loading="lazy" width="588" height="1192"></div></div>
     </div>
   </section>
 
@@ -474,7 +474,7 @@ const CASES=DATA.cases,BY=Object.fromEntries(CASES.map(c=>[c.id,c])),DIMS=DATA.d
 const CATS=[['all','Все'],['photo','Фото'],['video','Видео'],['brand','Для брендов'],['strategy','Контент и стратегия']];
 const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 const esc=s=>String(s).replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
-const src=id=>`img/${id}.webp`, thumb=id=>`img/${id}-t.webp`;
+const IMGDIR={"app": "img1", "bags-1": "img1", "bags-2": "img1", "bags-3": "img1", "bags-4": "img1", "bags-5": "img1", "bags-6": "img1", "bags-7": "img1", "bags-8": "img1", "bags-9": "img1", "bb-1": "img1", "bb-2": "img1", "bb-3": "img1", "bb-4": "img1", "bb-5": "img1", "bb-6": "img1", "bday-1": "img1", "bday-2": "img1", "bday-3": "img1", "bday-4": "img1", "bph-1": "img1", "bph-2": "img1", "bph-3": "img1", "bph-4": "img1", "bph-5": "img1", "bph-6": "img1", "bph-7": "img1", "bph-8": "img1", "brand-1": "img1", "brand-2": "img1", "brand-3": "img1", "brand-4": "img1", "brand-5": "img1", "brand-6": "img1", "brand-7": "img1", "brand-8": "img1", "brk-1": "img2", "brk-2": "img2", "brk-3": "img2", "brk-4": "img2", "brk-5": "img2", "col-1": "img2", "col-2": "img2", "col-3": "img2", "col-4": "img2", "col-5": "img2", "col-6": "img2", "col-7": "img2", "ideas-1": "img2", "ideas-2": "img2", "ideas-3": "img2", "ideas-4": "img2", "ideas-5": "img2", "ideas-6": "img2", "ideas-7": "img2", "insta-1": "img2", "insta-2": "img2", "insta-3": "img2", "insta-4": "img2", "insta-5": "img2", "insta-6": "img2", "insta-7": "img2", "insta-8": "img2", "lg5-1": "img2", "lg5-2": "img2", "lg5-3": "img2", "lg5-4": "img2", "lg5-5": "img2", "lg5-6": "img2", "lg5-7": "img2", "light-flash": "img2", "light-gobo": "img2", "light-golden": "img3", "light-rembrandt": "img3", "light-window": "img3", "look-1": "img3", "look-2": "img3", "look-3": "img3", "look-4": "img3", "me-ai": "img3", "pat-1": "img3", "pat-2": "img3", "pat-3": "img3", "pat-4": "img3", "pat-5": "img3", "pat-6": "img3", "raz-1": "img3", "raz-2": "img3", "raz-3": "img3", "raz-4": "img3", "raz-5": "img3", "retro-1": "img3", "retro-2": "img3", "retro-3": "img3", "retro-4": "img3", "retro-5": "img3", "st-1": "img3", "st-2": "img3", "st-3": "img3", "tech-1": "img3", "tech-2": "img3", "tech-3": "img3", "tech-4": "img3", "tech-5": "img3", "tech-6": "img3", "trend-1": "img3", "vref-1": "img3"};const src=id=>`${IMGDIR[id]}/${id}.webp`, thumb=id=>`${IMGDIR[id]}/${id}-t.webp`;
 const pad=n=>String(n).padStart(2,'0');
 const ARR_L='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>',ARR_R='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>';
 let state={filter:'all',open:null,internal:false,api:null,opener:null};
